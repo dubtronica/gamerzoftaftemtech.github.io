@@ -1,0 +1,55 @@
+form {
+	margin: 20px auto;
+	width: 320px;
+	color: rgba(255, 255, 255, 0.4);
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background: transparent;
+  display: table-row-group;
+  transition: all 0.3s ease;
+  font-size: 26px;
+  font-family:"Haettenschweiler";
+}
+
+}
+
+input[type="text"] {
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid black;
+}
+
+#radyo input[type="radio"] {
+	display: block;
+	margin: 8px 25px 8px;
+	font-family:"Haettenschweiler";
+}
+
+#radyo input[type="radio"] :first-child {
+	margin-left: 0;
+}
+
+
+
+input[type="submit"] {
+	width: 344px;
+	height: 80px;
+	background: #C91F0B
+	color: white;
+}
+
+input:focus {
+	background: black;
+}
+
+input[type="radio"]:checked + label {
+	font-weight: bold;
+	font-size: 18px;
+}
